@@ -1,0 +1,31 @@
+{
+  "name": "rickandmorty-vanilla",
+  "version": "1.0.0",
+  "description": "Single Page Aplication",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server  --mode development --open "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscaraag/rickandmorty-Vanilla.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oscaraag/rickandmorty-Vanilla/issues"
+  },
+  "homepage": "https://github.com/Oscaraag/rickandmorty-Vanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
