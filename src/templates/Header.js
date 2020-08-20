@@ -4,7 +4,7 @@ const Header = () => {
         <div class="Header-logo" >
             <h1>
                 <a href="/">
-                     Rick And Morty  SPA
+                     Rick And Morty  SPA 
                  </a>
 
             </h1>
